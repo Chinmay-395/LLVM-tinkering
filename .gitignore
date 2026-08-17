@@ -1,0 +1,50 @@
+# ==========================================
+# CMake & Build Artifacts
+# ==========================================
+build/
+bin/
+lib/
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+!CMakeLists.txt
+compile_commands.json
+
+# ==========================================
+# Compiled Binaries & Object Files
+# ==========================================
+*.o
+*.obj
+*.so
+*.dylib
+*.dll
+*.a
+*.lib
+*.out
+inspect
+
+# ==========================================
+# LLVM / Clang Intermediate & Temporary Files
+# ==========================================
+*.ll
+*.bc
+*.s
+*.opt.ll
+
+# ==========================================
+# IDEs & Editor Metadata
+# ==========================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# ==========================================
+# Test & Temporary Logs
+# ==========================================
+*.log
+tmp/
