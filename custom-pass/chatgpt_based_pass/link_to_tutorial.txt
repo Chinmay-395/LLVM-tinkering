@@ -1,4 +1,16 @@
 https://chatgpt.com/g/g-p-6a7a4bc793688191bf04ebb9d9dc9d13-prof-rupesh-compiler-analysis/c/6a834ef6-873c-83ea-b53f-f3327f312cc0
 
 
-Stage 3.3 — Seeing LLVM IR as C++ objects
+before we move to the next Stage
+`struct InspectFunctionPass
+    : PassInfoMixin<InspectFunctionPass>`
+
+can you explain the C++ behind `InspectFunctionPass` which is something we created and now we are putting that into the PassInfoMixin class as well and calling that a C++ struct.
+
+I am at "Your Stage 3.4 status"
+
+
+Read a few research papers on this concept on building a complicated compiler pass for points-to analyses. What are the previous attempts and the latest attempts; which is one is simplest and closest attempt to the algorithm of alias analyses I implemented in the CS516 course based on which I am building the current the compiler pass.
+
+
+1. the PassInfoMixin allows us to convert the C++ into a LLVM object, the run function with 'Function' as reference in &F won't be available for us. Yes, stopped being valid C++ code for inspecting F. 
