@@ -6,7 +6,8 @@
 
 ---
 
-My though till now is that I should focus on building the **engineering view** perspective for the goal of Prof Rupesh Nasre assignment.
+My though till now is that I should focus on building the **engineering view** perspective for the goal of Prof Rupesh Nasre assignment. Even though the problem is undecidable ie exact pointer analysis cannot generally compute:
+"the exact pointer value for every possible program execution" for arbitrary programs.
 
 ---
 
@@ -50,4 +51,10 @@ Additionally, he mentions that research in this field explores different underly
 *   **BDDs (Binary Decision Diagrams):** Used to represent pointer information more concisely (0:19:07).
 *   **Probabilistic methods:** Assigning probabilities to pointer relationships (0:19:18).
 *   **Other techniques:** Including parallel processing, demand-driven methods, randomized methods, and various refinement or bootstrapping strategies (0:19:30-0:20:05).
+
+---
+
+How far and wide [search space] should my search for analysis be and what amount of time should I target for program execution and correctness of the compiler needs to be maintained; thus, heuristics are extremely important in determining
+
+---
 
